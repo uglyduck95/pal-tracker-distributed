@@ -5,3 +5,7 @@ dependencies {
     compile project(":components:projects")
     compile project(":components:users")
 }
+
+springBoot {
+    buildInfo()
+}
